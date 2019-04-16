@@ -14,4 +14,15 @@ module.exports = function(app) {
     res.json(reserveData);
   });
 
+  app.post('/api/tables', function(req, res) {
+    if (tableData.length < 5) {
+      tableData.push(req.body);
+      res.json(true);
+    }
+    else {
+      reserveData.push(req.body);
+      res.json(true);
+    }
+  });
+
 };
