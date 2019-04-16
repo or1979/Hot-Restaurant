@@ -1,0 +1,24 @@
+{
+  "name": "hot_resturant_22",
+  "version": "1.0.0",
+  "description": "reservation app for the Hot Resturant",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code22-motkilo/hot_resturant_22.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code22-motkilo/hot_resturant_22/issues"
+  },
+  "homepage": "https://github.com/code22-motkilo/hot_resturant_22#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
