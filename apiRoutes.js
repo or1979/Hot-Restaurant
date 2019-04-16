@@ -1,7 +1,7 @@
 // API rooutes
 
 var tableData = require("/data/table.js");
-var reserveData = require("/data/table.js");
+var reserveData = require("/data/reserve.js");
 
 
 module.exports = function(app) {
